@@ -10,13 +10,31 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-section-name",
+  "id": "sec-welcome-what-is-calculus",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "sec-welcome-what-is-calculus.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section. More text will go here. Here's a macro:  Here's some math:  "
+  "title": "What is calculus?",
+  "body": " What is calculus?  Put some things here.  "
+},
+{
+  "id": "sec-welcome-differentials",
+  "level": "1",
+  "url": "sec-welcome-differentials.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Differentials",
+  "body": " Differentials  Put some things here about differentials.  "
+},
+{
+  "id": "sec-01-reading",
+  "level": "1",
+  "url": "sec-01-reading.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Reading questions",
+  "body": " Reading questions  Reading questions go here.  "
 },
 {
   "id": "backmatter-2",
