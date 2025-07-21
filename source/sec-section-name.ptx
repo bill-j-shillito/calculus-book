@@ -3,7 +3,7 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section Title</title>
 
-  <p> Text of section. More text will go here. <m>x\inv</m></p>
+  <p> Text of section. More text will go here. Here's a macro: <m>x\inv</m></p>
 
   <p> Here's some math: <me>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}</me></p>
 
