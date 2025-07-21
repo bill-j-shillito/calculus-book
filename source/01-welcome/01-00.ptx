@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-welcome" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Welcome to calculus!</title>
+
+  <introduction>
+    <p> Insert introductory text here. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="./01-01-what-is-calculus.ptx" />
+  <xi:include href="./01-02-differentials.ptx" />
+  <xi:include href="./01-97-reading.ptx" />
+
+</chapter>
