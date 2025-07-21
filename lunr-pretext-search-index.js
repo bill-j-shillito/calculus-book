@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Section Title",
-  "body": " Section Title  Text of section. More text will go here.  Here's some math:  "
+  "body": " Section Title  Text of section. More text will go here. Here's a macro:  Here's some math:  "
 },
 {
   "id": "backmatter-2",
