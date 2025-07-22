@@ -27,7 +27,9 @@
 
     <exercise>
       <title>What is calculus?</title>
-      <p>What is calculus? Why is it important?</p>
+      <statement>
+        <p>What is calculus? Why is it important?</p>
+      </statement>
       <solution>
         <p>Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.</p>
       </solution>
