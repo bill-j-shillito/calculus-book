@@ -22,7 +22,7 @@
 
   </section>
 
-  <reading-questions>
+  <reading-questions xml:id="sec-welcome-reading-questions">
     <title>Check your understanding</title>
 
     <exercise>
