@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-welcome-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="welcome" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Welcome to calculus!</title>
 
   <introduction>
@@ -8,21 +8,21 @@
   </introduction>
 
   <!-- include sections -->
-  <section xml:id="sec-welcome-what-is-calculus">
+  <section xml:id="welcome-sec-what-is-calculus">
     <title>What is calculus?</title>
 
     <p> Put some things here.</p>
 
   </section>
   
-  <section xml:id="sec-welcome-differentials">
+  <section xml:id="welcome-sec-differentials">
     <title>Differentials</title>
 
     <p> Put some things here about differentials.</p>
 
   </section>
 
-  <reading-questions xml:id="sec-welcome-reading-questions">
+  <reading-questions xml:id="welcome-reading-questions">
     <title>Check your understanding</title>
 
     <exercise>
