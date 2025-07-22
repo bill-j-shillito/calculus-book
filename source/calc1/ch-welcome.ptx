@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-welcome-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Welcome to calculus!</title>
+
+  <introduction>
+    <p> Insert introductory text here. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <section xml:id="sec-welcome-what-is-calculus">
+    <title>What is calculus?</title>
+
+    <p> Put some things here.</p>
+
+  </section>
+  
+  <section xml:id="sec-welcome-differentials">
+    <title>Differentials</title>
+
+    <p> Put some things here about differentials.</p>
+
+  </section>
+
+  <section xml:id="sec-01-reading">
+    <title>Reading questions</title>
+
+    <p> Reading questions go here.</p>
+
+  </section>
+
+</chapter>
