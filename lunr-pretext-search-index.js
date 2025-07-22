@@ -10,36 +10,36 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-welcome-what-is-calculus",
+  "id": "welcome-sec-what-is-calculus",
   "level": "1",
-  "url": "sec-welcome-what-is-calculus.html",
+  "url": "welcome-sec-what-is-calculus.html",
   "type": "Section",
   "number": "1.1",
   "title": "What is calculus?",
   "body": " What is calculus?  Put some things here.  "
 },
 {
-  "id": "sec-welcome-differentials",
+  "id": "welcome-sec-differentials",
   "level": "1",
-  "url": "sec-welcome-differentials.html",
+  "url": "welcome-sec-differentials.html",
   "type": "Section",
   "number": "1.2",
   "title": "Differentials",
   "body": " Differentials  Put some things here about differentials.  "
 },
 {
-  "id": "sec-welcome-reading-questions",
+  "id": "welcome-reading-questions",
   "level": "1",
-  "url": "sec-welcome-reading-questions.html",
+  "url": "welcome-reading-questions.html",
   "type": "Reading Questions",
   "number": "1.3",
   "title": "Check your understanding",
   "body": " Check your understanding   What is calculus?  What is calculus? Why is it important?   Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.    "
 },
 {
-  "id": "sec-welcome-reading-questions-2",
+  "id": "welcome-reading-questions-2",
   "level": "2",
-  "url": "sec-welcome-reading-questions.html#sec-welcome-reading-questions-2",
+  "url": "welcome-reading-questions.html#welcome-reading-questions-2",
   "type": "Reading Question",
   "number": "1.3.1",
   "title": "What is calculus?",
