@@ -22,11 +22,17 @@
 
   </section>
 
-  <section xml:id="sec-01-reading">
-    <title>Reading questions</title>
+  <reading-questions>
+    <title>Check your understanding</title>
 
-    <p> Reading questions go here.</p>
+    <exercise>
+      <title>What is calculus?</title>
+      <p>What is calculus? Why is it important?</p>
+      <solution>
+        <p>Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.</p>
+      </solution>
+    </exercise>
 
-  </section>
+  </reading-questions>
 
 </chapter>
