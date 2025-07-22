@@ -4,7 +4,7 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="calculus-scbi">
     <title>Calculus: Small Changes, Big Ideas</title>
     <!-- <subtitle>An example to get you started</subtitle> -->
 
@@ -12,7 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./calc1/01-welcome/ch-welcome.ptx" />
+    <xi:include href="./calc1/ch-welcome.ptx" />
 
 
     <!-- Include backmatter -->
