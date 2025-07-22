@@ -28,18 +28,18 @@ var ptx_lunr_docs = [
   "body": " Differentials  Put some things here about differentials.  "
 },
 {
-  "id": "ch-welcome-intro-5",
+  "id": "sec-welcome-reading-questions",
   "level": "1",
-  "url": "ch-welcome-intro-5.html",
+  "url": "sec-welcome-reading-questions.html",
   "type": "Reading Questions",
   "number": "1.3",
   "title": "Check your understanding",
   "body": " Check your understanding   What is calculus?  What is calculus? Why is it important?   Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.    "
 },
 {
-  "id": "ch-welcome-intro-5-2",
+  "id": "sec-welcome-reading-questions-2",
   "level": "2",
-  "url": "ch-welcome-intro-5.html#ch-welcome-intro-5-2",
+  "url": "sec-welcome-reading-questions.html#sec-welcome-reading-questions-2",
   "type": "Reading Question",
   "number": "1.3.1",
   "title": "What is calculus?",
