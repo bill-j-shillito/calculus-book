@@ -16,23 +16,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "What is calculus?",
-  "body": " What is calculus?  Put some things here.  "
-},
-{
-  "id": "welcome-sec-differentials",
-  "level": "1",
-  "url": "welcome-sec-differentials.html",
-  "type": "Section",
-  "number": "1.2",
-  "title": "Differentials",
-  "body": " Differentials  Put some things here about differentials.  "
+  "body": " What is calculus?  Much of the geometry you've studied before relies on straight lines and flat shapes. You can find the slope of a line, the perimeter of a polygon, or the area of a rectangle using simple, well-known formulas. But many of the shapes we encounter in the real world aren't straight they're curved. Calculus extends the tools of geometry and algebra to help us reason about these more complex, curved situations.  Here's how the ideas you already know begin to generalize when we introduce calculus:   Before calculus With calculus  Slope of a line Slope of a curve (derivative)  Length of a segment Length of a curve (arc length)  Area of a rectangle Area under a curve (definite integral)  Average rate of change Instantaneous rate of change  Summing a few terms Adding infinitely many tiny pieces   Consider the parabola given by from to . Unlike the perimeter of a rectangle or the length of a straight segment, there's no obvious formula to plug into. So how could we even begin?     f(x)=2*x-x^2  a = 1         One natural idea is to approximate the curve using straight lines. If we connect a few points on the graph with line segments, we can estimate the total length by adding up the lengths of those segments.     f(x)=2*x-x^2  a = 1              In the figure above, we connect the points , , and with line segments. The total length of these segments gives us an estimate of the arc length of the curve from to :   And if we use more points say, ten instead of three the estimate gets better. Each line segment becomes a closer approximation of the curve.  Now imagine continuing this process with more and more points, each one closer to the next. The curve starts to look like it's made up of infinitely many tiny pieces, each nearly straight. If we could somehow add up the lengths of all those infinitesimal segments, we'd get the exact arc length. But what does it mean to add up infinitely many infinitesimal pieces? That question is the starting point of calculus, which gives us the tools to reason precisely about these infinitesimal quantities.  "
 },
 {
   "id": "welcome-reading-questions",
   "level": "1",
   "url": "welcome-reading-questions.html",
   "type": "Reading Questions",
-  "number": "1.3",
+  "number": "1.2",
   "title": "Check your understanding",
   "body": " Check your understanding   What is calculus?   What is calculus? Why is it important?    Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.    "
 },
@@ -41,7 +32,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "welcome-reading-questions.html#welcome-reading-questions-2",
   "type": "Reading Question",
-  "number": "1.3.1",
+  "number": "1.2.1",
   "title": "What is calculus?",
   "body": " What is calculus?   What is calculus? Why is it important?    Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.   "
 },
