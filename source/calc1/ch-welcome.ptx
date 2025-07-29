@@ -4,23 +4,86 @@
   <title>Welcome to calculus!</title>
 
   <introduction>
-    <p> Insert introductory text here. </p>
+    <p><em>Welcome to the world of calculus!</em></p>
+    <p>TThis opening chapter introduces the core ideas that will guide our journey: how breaking things into tiny pieces can help us describe the world with remarkable precision.</p>
+    <p>The goal of this chapter is to build intuition for the central ideas that drive calculus. Before introducing any formal definitions, we’ll explore how familiar formulas arise from simpler pieces, and why those pieces, when understood correctly, can unlock powerful methods for understanding the world around us.</p>
   </introduction>
 
   <!-- include sections -->
   <section xml:id="welcome-sec-what-is-calculus">
     <title>What is calculus?</title>
 
-    <p> Put some things here.</p>
+    <p>
+      Much of the geometry you've studied before relies on straight lines and flat shapes. You can find the slope of a line, the perimeter of a polygon, or the area of a rectangle using simple, well-known formulas. But many of the shapes we encounter in the real world aren't straight <mdash/> they're curved. Calculus extends the tools of geometry and algebra to help us reason about these more complex, curved situations.
+    </p>
+
+    <p>
+      Here's how the ideas you already know begin to generalize when we introduce calculus:
+    </p>
+
+    <tabular>
+      <row><cell><em>Before calculus</em></cell><cell><em>With calculus</em></cell></row>
+      <row><cell>Slope of a line</cell><cell>Slope of a curve (derivative)</cell></row>
+      <row><cell>Length of a segment</cell><cell>Length of a curve (arc length)</cell></row>
+      <row><cell>Area of a rectangle</cell><cell>Area under a curve (definite integral)</cell></row>
+      <row><cell>Average rate of change</cell><cell>Instantaneous rate of change</cell></row>
+      <row><cell>Summing a few terms</cell><cell>Adding infinitely many tiny pieces</cell></row>
+    </tabular>
+
+    <p>Consider the parabola given by <m>y = 2x - x^2</m> from <m>x = 0</m> to <m>x = 2</m>. Unlike the perimeter of a rectangle or the length of a straight segment, there's no obvious formula to plug into. So how could we even begin?</p>
+
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+                label="prefigure-rectangle">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>f(x)=2*x-x^2</definition>
+          <definition>a = 1</definition>
+          <coordinates bbox="(-1,-1,3,3)">
+            <grid-axes xlabel="x" ylabel="y"/>
+            <graph function="f"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <p>One natural idea is to approximate the curve using straight lines. If we connect a few points on the graph with line segments, we can estimate the total length by adding up the lengths of those segments.</p>
+
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+                label="prefigure-curve-approximation">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>f(x)=2*x-x^2</definition>
+          <definition>a = 1</definition>
+          <coordinates bbox="(-1,-1,3,3)">
+            <grid-axes xlabel="x" ylabel="y"/>
+            <graph function="f"/>
+            <line p1="(0,0)" p2="(1,1)" stroke="#ff0000"/>
+            <line p1="(1,1)" p2="(2,0)" stroke="#ff0000"/>
+            <point x="0" y="0" color="#ff0000"/>
+            <point x="1" y="1" color="#ff0000"/>
+            <point x="2" y="0" color="#ff0000"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+
+    <p>In the figure above, we connect the points <m>(0,0)</m>, <m>(1,1)</m>, and <m>(2,0)</m> with line segments. The total length of these segments gives us an estimate of the arc length of the curve from <m>x = 0</m> to <m>x = 2</m>:</p>
+    <p><me>\text{Length} \approx \sqrt{(1-0)^2 + (1-0)^2} + \sqrt{(2-1)^2 + (0-1)^2} = \sqrt{2} + \sqrt{2} = 2\sqrt{2} \approx 2.828</me></p>
+    
+    <p>And if we use more points <mdash/> say, ten instead of three <mdash/> the estimate gets better. Each line segment becomes a closer approximation of the curve.</p>
+
+    <p>Now imagine continuing this process with more and more points, each one closer to the next. The curve starts to look like it's made up of infinitely many tiny pieces, each nearly straight. If we could somehow add up the lengths of all those infinitesimal segments, we'd get the exact arc length. But what does it mean to add up infinitely many infinitesimal pieces? That question is the starting point of calculus, which gives us the tools to reason precisely about these infinitesimal quantities.</p>
+
+    
 
   </section>
   
-  <section xml:id="welcome-sec-differentials">
+  <!-- <section xml:id="welcome-sec-differentials">
     <title>Differentials</title>
 
     <p> Put some things here about differentials.</p>
 
-  </section>
+  </section> -->
 
   <reading-questions xml:id="welcome-reading-questions">
     <title>Check your understanding</title>
