@@ -4,22 +4,21 @@
   <title>Welcome to calculus!</title>
 
   <introduction>
-    <p><em>Welcome to the world of calculus!</em></p>
-    <p>TThis opening chapter introduces the core ideas that will guide our journey: how breaking things into tiny pieces can help us describe the world with remarkable precision.</p>
-    <p>The goal of this chapter is to build intuition for the central ideas that drive calculus. Before introducing any formal definitions, we’ll explore how familiar formulas arise from simpler pieces, and why those pieces, when understood correctly, can unlock powerful methods for understanding the world around us.</p>
+    <p>Calculus is a fascinating branch of mathematics that allows us to understand and describe change in the world around us. This opening chapter introduces the core ideas that will guide our journey through calculus: how breaking things into tiny pieces can help us describe the world with remarkable precision.</p>
+    <p>The goal of this chapter is to build intuition for the central ideas that drive calculus. Before introducing any formal definitions, we'll explore how familiar formulas arise from simpler pieces, and why those pieces, when understood correctly, can unlock powerful methods for understanding the world around us.</p>
   </introduction>
 
-  <!-- include sections -->
   <section xml:id="welcome-sec-what-is-calculus">
     <title>What is calculus?</title>
 
     <p>
-      Much of the geometry you've studied before relies on straight lines and flat shapes. You can find the slope of a line, the perimeter of a polygon, or the area of a rectangle using simple, well-known formulas. But many of the shapes we encounter in the real world aren't straight <mdash/> they're curved. Calculus extends the tools of geometry and algebra to help us reason about these more complex, curved situations.
+      Much of the geometry you've studied before relies on shapes made up of straight lines and flat surfaces. For example, the perimeter of a rectangle is simply the sum of its sides, and the area is the product of its length and width. These formulas are straightforward because they deal with simple shapes. But what about more complex shapes, like curves or surfaces that aren't flat? How do we measure things like the length of a curve or the area under a wavy line?
     </p>
 
     <p>
       Here's how the ideas you already know begin to generalize when we introduce calculus:
     </p>
+
 
     <tabular>
       <row><cell><em>Before calculus</em></cell><cell><em>With calculus</em></cell></row>
@@ -30,52 +29,51 @@
       <row><cell>Summing a few terms</cell><cell>Adding infinitely many tiny pieces</cell></row>
     </tabular>
 
-    <p>Consider the parabola given by <m>y = 2x - x^2</m> from <m>x = 0</m> to <m>x = 2</m>. Unlike the perimeter of a rectangle or the length of a straight segment, there's no obvious formula to plug into. So how could we even begin?</p>
+    <p>
+      Calculus lets us extend these familiar ideas to more complex situations by making use of the concept of infinitesimals <mdash/> quantities that are so small they can be thought of as <sq>infinitely close to zero.</sq> By breaking down complex shapes and processes into these infinitesimal pieces, we can apply the same principles that work for simple shapes to more complicated ones.
+    </p>
+  </section>
 
-    <image width="60%">
-      <prefigure xmlns="https://prefigure.org"
-                label="prefigure-rectangle">
-        <diagram dimensions="(300,300)" margins="5">
-          <definition>f(x)=2*x-x^2</definition>
-          <definition>a = 1</definition>
-          <coordinates bbox="(-1,-1,3,3)">
-            <grid-axes xlabel="x" ylabel="y"/>
-            <graph function="f"/>
-          </coordinates>
-        </diagram>
-      </prefigure>
-    </image>
 
-    <p>One natural idea is to approximate the curve using straight lines. If we connect a few points on the graph with line segments, we can estimate the total length by adding up the lengths of those segments.</p>
 
-    <image width="60%">
-      <prefigure xmlns="https://prefigure.org"
-                label="prefigure-curve-approximation">
-        <diagram dimensions="(300,300)" margins="5">
-          <definition>f(x)=2*x-x^2</definition>
-          <definition>a = 1</definition>
-          <coordinates bbox="(-1,-1,3,3)">
-            <grid-axes xlabel="x" ylabel="y"/>
-            <graph function="f"/>
-            <line p1="(0,0)" p2="(1,1)" stroke="#ff0000"/>
-            <line p1="(1,1)" p2="(2,0)" stroke="#ff0000"/>
-            <point x="0" y="0" color="#ff0000"/>
-            <point x="1" y="1" color="#ff0000"/>
-            <point x="2" y="0" color="#ff0000"/>
-          </coordinates>
-        </diagram>
-      </prefigure>
-    </image>
+  <section xml:id="welcome-sec-a-motivating-example">
+    <title>A motivating example</title>
 
-    <p>In the figure above, we connect the points <m>(0,0)</m>, <m>(1,1)</m>, and <m>(2,0)</m> with line segments. The total length of these segments gives us an estimate of the arc length of the curve from <m>x = 0</m> to <m>x = 2</m>:</p>
-    <p><me>\text{Length} \approx \sqrt{(1-0)^2 + (1-0)^2} + \sqrt{(2-1)^2 + (0-1)^2} = \sqrt{2} + \sqrt{2} = 2\sqrt{2} \approx 2.828</me></p>
-    
-    <p>And if we use more points <mdash/> say, ten instead of three <mdash/> the estimate gets better. Each line segment becomes a closer approximation of the curve.</p>
+    <p>
+      Let's look at a simple example that you've probably taken for granted: the formula for the area of a circle. You know that the area is given by the formula <m>A = \pi r^2</m>, where <m>r</m> is the radius. But how do we arrive at this formula? How can we understand it in a way that makes sense without just memorizing it?
+    </p>
 
-    <p>Now imagine continuing this process with more and more points, each one closer to the next. The curve starts to look like it's made up of infinitely many tiny pieces, each nearly straight. If we could somehow add up the lengths of all those infinitesimal segments, we'd get the exact arc length. But what does it mean to add up infinitely many infinitesimal pieces? That question is the starting point of calculus, which gives us the tools to reason precisely about these infinitesimal quantities.</p>
+    <p>
+      One way we can start to understand this is by thinking of the circle as being made of many tiny pieces. Imagine that the circle is made up of some number of thin concentric rings, like the layers of an onion. Each ring has a very small width, and if we add up the areas of all these rings, we can get an approximation for the area of the circle.
+    </p>
 
-    
+    <p>
+      For example, suppose we chop the circle into four thin rings. If we slice through one radius of the circle as shown and let the rings <sq>flop</sq> out, we can see that each ring is like a tiny rectangle with a height equal to the circumference of the circle at that radius and a width equal to the thickness of the ring. The area of each ring can be approximated as the circumference times the width, as shown in the figure below.
+    </p>
 
+    <p>(Placeholder for figure showing rings)</p>
+
+    <p>
+      As we make the rings thinner and thinner, we can see that the shape we get is looking more and more like a triangle:
+    </p>
+
+    <p>(Placeholder for figure showing rings approximating a triangle)</p>
+
+    <p>
+      Now here's the key insight: what if we had an infinite number of these infinitesimally thin rings? In this case, the shape we get would be indistinguishable from a triangle, and we could use the formula for the area of a triangle to find the area of the circle. The area of a triangle is given by: <me>A = \frac{1}{2} \cdot \text{base} \cdot \text{height}</me> Here, the base is the circumference of the circle (which is <m>2\pi r</m>) and the height is the radius (<m>r</m>). So we can write the area of the circle as:
+      <me> A = \frac{1}{2} \cdot (2\pi r) \cdot r = \pi r^2</me>
+      This is exactly the formula we know!
+    </p>
+
+    <p>
+      Now, while this gave the answer we expected, there are some important questions that we can raise:
+      <ul>
+        <li>How do we know that the area of the circle is actually equal to the area of this triangle?</li>
+        <li>What happens if we try to apply this reasoning to other shapes?</li>
+        <li>How can we formalize this idea of adding up infinitely many tiny pieces?</li>
+      </ul>
+      If you're a bit skeptical about this reasoning, that's a good thing! The goal of calculus is to provide a rigorous framework for answering these questions.
+    </p>
   </section>
   
   <!-- <section xml:id="welcome-sec-differentials">
@@ -88,16 +86,38 @@
   <reading-questions xml:id="welcome-reading-questions">
     <title>Check your understanding</title>
 
+    <p>(These are just placeholders for now)</p>
+    
     <exercise>
-      <title>What is calculus?</title>
-      <statement>
-        <p>What is calculus? Why is it important?</p>
-      </statement>
-      <solution>
-        <p>Calculus is the mathematical study of continuous change. It is important because it provides tools for modeling and understanding dynamic systems.</p>
-      </solution>
+      <statement><p>What is the main idea behind calculus?</p></statement>
+      <answer><p>Calculus allows us to understand and describe change by breaking things into infinitesimally small pieces, enabling us to apply familiar geometric concepts to more complex shapes and processes.</p></answer>
+    </exercise>
+
+    <exercise>
+      <statement><p>How does the area of a circle relate to the concept of infinitesimals?</p></statement>
+      <answer><p>The area of a circle can be understood by approximating it as an infinite number of infinitesimally thin rings, which can be summed to yield the familiar formula for the area of a circle.</p></answer>
+    </exercise>
+
+    <exercise>
+      <statement><p>Why is it important to question the reasoning behind familiar formulas in calculus?</p></statement>
+      <answer><p>Questioning the reasoning helps us develop a deeper understanding of the concepts and ensures that we can apply calculus rigorously to various shapes and processes.</p></answer>
     </exercise>
 
   </reading-questions>
+
+  <exercises xml:id="welcome-exercises">
+    <title>Exercises</title>
+
+    <exercise>
+      <statement><p>Suppose we break up the circle in a different way, say into <m>n</m> equal sectors. We then arrange them in an alternating pattern. The case where <m>n=4</m> is shown below.</p>
+        <ol>
+          <li>Sketch the arrangement for <m>n=8</m>.</li>
+          <li>What happens as <m>n</m> increases?</li>
+          <li>What if we were to let <m>n</m> approach infinity? What shape do you think we would get?</li>
+          <li>How does the case of infinitely many infinitely thin sectors give us the area of the circle?</li>
+        </ol>
+      </statement>
+    </exercise>
+  </exercises>
 
 </chapter>
